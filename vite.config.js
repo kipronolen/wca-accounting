@@ -10,4 +10,5 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    build: { outDir: 'dist' } // Change to 'dist' instead of 'public/build'
 });
